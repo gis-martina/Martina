@@ -63,19 +63,23 @@ html {
   font-size: 1.25rem;
   line-height: 2.5rem; }
 
+.nav-link,
+.navbar-brand {
+    color: #4588e6;
+    cursor: pointer;
+  }
+
 .nav-link {
-  padding: 0;
-  font-size: 1.25rem;
-  line-height: 2.5rem;
-  color: rgba(0, 0, 0, 0.5); }
+    margin-right: 1em !important;
+  }
 
-.nav-link:hover,
-.nav-link:focus,
-.active .nav-link {
-  color: rgba(0, 0, 0, 0.8); }
+.nav-link:hover {
+    color: rgb(190, 228, 235);
+  }
 
-.nav-item + .nav-item {
-  margin-left: 1rem; }
+.navbar-collapse {
+    justify-content: flex-start;
+  }
 
 .cover {
   border-radius: 10px; }
