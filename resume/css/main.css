@@ -97,6 +97,15 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
+ .link {
+    text-decoration: none;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    color: #393e42;
+ }
+
 .avatar img {
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%); }
