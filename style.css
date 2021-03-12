@@ -72,7 +72,7 @@ body {
     position: relative;
   }
   
-  .feature-title {
+  .feature-title a {
     color: #333;
     font-size: 1.3rem;
     font-weight: 700;
